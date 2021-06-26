@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
+
+@font-face {
+  font-family: "Noticia Textregular";
+  src: url("../fonts/noticiatext-regular-webfont.woff2") format("woff2"),
+    url("../fonts/noticiatext-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+#bookTitle {
+  font-family: "Bebas Neue", cursive;
+  font-size: 2em;
+}
+.nav-custom {
+  background-color: #5bc0de;
+}
+
+header {
+  margin-bottom: 100px;
+  font-family: "Noticia Textregular";
+}
+
+#carousel {
+  width: 350px;
+  height: 200px;
+}
+
+figure > div > div > h6 {
+  text-align: center;
+}
+
+figure > div > div > img {
+  height: 100px;
+  padding-left: 50px;
+  padding-bottom: 10px;
+}
+
+figure > div > div > p {
+  font-size: 10px;
+  text-align: center;
+}
+figure > h4 {
+  font-size: 16px;
+}
+figure > p {
+  font-size: 12px;
+}
+
+#AuthorPic {
+  height: 120px;
+  width: auto;
+}
+
+h6 {
+  text-align: left;
+  font-weight: bold;
+}
+
+.card-body > h6 {
+  font-weight: 800;
+  font-style: italic;
+}
+
+em {
+  font-weight: bold;
+  color: #290c0c;
+  font-size: large;
+}
+
+#AboutAuthorH,
+#reviewsH {
+  background-color: #5bc0de;
+  color: #f0f8ff;
+}
